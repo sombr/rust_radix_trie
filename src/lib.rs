@@ -25,8 +25,7 @@ mod trie;
 mod subtrie;
 mod trie_node;
 mod trie_common;
-#[cfg(feature = "serde")]
-mod serde;
+pub mod serde;
 
 #[cfg(test)]
 mod test;
